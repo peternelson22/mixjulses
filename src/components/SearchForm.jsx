@@ -17,7 +17,6 @@ const SearchForm = ({ searchTerm }) => {
           {isSubmitting ? 'searching...' : 'search'}
         </button>
       </Form>
-      ;
     </Wrapper>
   );
 };
